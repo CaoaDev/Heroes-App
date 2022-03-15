@@ -18,6 +18,8 @@ export const DashBoardRoutes = () => {
                     <Route path="/dc" element={<DcScreen />} />
                     <Route path="/search" element={<SearchScreen />} />
                     <Route path="hero/:heroeId" element={<HeroeScreen />} />
+                    <Route path='/*' element={<InicioScreen />}/>
+
                 </Routes>
             </div>
         </>
